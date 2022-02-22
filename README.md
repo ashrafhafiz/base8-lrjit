@@ -8,7 +8,7 @@ cd jetstream
 composer install
 ```
 ```shell
-cp .env.expample .env
+cp .env.example .env
 ```
 ```shell
 php artisan key:generate
