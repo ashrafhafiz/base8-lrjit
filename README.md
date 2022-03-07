@@ -1,7 +1,15 @@
+## Stack Components:
+1. Laravel 8
+2. React
+3. Jetstream
+4. InertiaJS
+5. TailwindCSS
+6. spatie/laravel-permission
+
 ## Installation Steps
 
 ```shell
-git clone https://github.com/raynirola/jetstream-react.git jetstream
+git clone https://github.com/ashrafhafiz/base8-lrjit.git lrjit8-example
 ```
 ```shell
 cd jetstream
@@ -58,3 +66,14 @@ To do so, you may publish the configuration file with the following command:
 ```shell
 php artisan vendor:publish --tag=blueprint-config
 ```
+# Mailhog
+https://github.com/mailhog/MailHog
+
+MAIL_MAILER=smtp
+MAIL_HOST=localhost
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="support@lrjit.test"
+MAIL_FROM_NAME="{$APP_NAME}"
